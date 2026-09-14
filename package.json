@@ -1,0 +1,20 @@
+{
+  "name": "minecraft-modpack-analyzer",
+  "version": "1.0.0",
+  "description": "A Node.js script to analyze and gather statistics on Minecraft modpack files.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "adm-zip": "^0.6.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
